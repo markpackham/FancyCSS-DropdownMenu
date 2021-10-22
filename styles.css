@@ -55,3 +55,13 @@ body {
     grid-template-columns: repeat(2, max-content);
     gap: 2rem;
 }
+
+.dropdown-links {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+.login-form>input {
+    margin-bottom: .5rem;
+}
