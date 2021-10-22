@@ -49,3 +49,9 @@ body {
     transform: translateY(0);
     pointer-events: auto;
 }
+
+.information-grid {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: 2rem;
+}
